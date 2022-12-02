@@ -24,24 +24,24 @@ const passwordElement = document.getElementById('password');
 
 // Chiedo nome all'utente
 
-const firstName = prompt('Qual è il tuo nome?', 'Michela')
+const firstName = prompt('Qual è il tuo nome?')
 
 
 
 // Chiedo il cognome all'utente
 
-const lastName = prompt('Qual è il tuo cognome?', 'Ricci')
+const lastName = prompt('Qual è il tuo cognome?')
 
 
 // Chiedo il colore preferito all'utente
 
-const favColor = prompt('Qual è il tuo colore preferito?' , 'Blu')
+const favColor = prompt('Qual è il tuo colore preferito?')
 
 
 
 // Stampo pw in pagina
 
-document.getElementById('password').innerText = "La tua password è:" + firstName + lastName + favColor + "21";
-console.log(password);
+document.getElementById('password').innerText = "La tua password è: " + firstName + lastName + favColor + "21";
+
 
 
