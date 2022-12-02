@@ -22,3 +22,4 @@ console.log('JS OK');
 // Chiedo nome all'utente
 
 const firstName = prompt('Come ti chiami?', 'Michela')
+console.log(firstName);
