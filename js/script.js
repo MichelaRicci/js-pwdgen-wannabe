@@ -36,6 +36,12 @@ const lastName = prompt('Qual è il tuo cognome?', 'Ricci')
 // Chiedo il colore preferito all'utente
 
 const favColor = prompt('Qual è il tuo colore preferito?' , 'Blu')
-console.log(favColor);
+
+
+
+// Stampo pw in pagina
+
+document.getElementById('password').innerText = "La tua password è:" + firstName + lastName + favColor + "21";
+console.log(password);
 
 
